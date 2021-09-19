@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file inputs and encoding</title>
+</head>
+<body>
+    <form action="">
+        <input type="file"> <button>submit</button>
+    </form>
+    <p>although the input type is "file," the user will not be able to upload a file unless a special attribute, within the form element, entitled enctype is declared and assigned a value; namely "multipart/form-data"</p>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label>
+    Choose file to upload
+    <input type="file" name="my-file" id="">
+    <button>submit</button></label>
+    </form>
+    <p>"multipart" means that when a file is submitted, it will be broken up and sent in multiple parts because of its great size</p>
+</body>
+</html>

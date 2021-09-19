@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reddit search form demo</title>
+</head>
+<body>
+    <h3>the action attribute on the form element</h3>
+    <p>in this form, I have entered a value for action attribute which is a url. the user's input into the form will, when submitted, be sent to the url I have assigned to the action attribute.</p>
+    <form action="https://www.reddit.com/search">
+    <input type="text" name="q">
+    <button type="submit">submit</button>
+    <br><h3>other attributes</h3>
+    <p>is also an element within form entitled "get" and "push"</p>
+    <p>in this form, the user can select how to sort the search results of their input</p>
+    <form action="https://www.reddit.com/search" method="GET">
+        <br>sort by 
+        <select name="sort" id="">
+            <option value="top">top</option>
+            <option value="new">new</option>
+            <option value="comments">comments</option>
+        </select>
+    <input type="text" name="q" id="">
+    <button>submit</button>
+</form>
+</form>
+</body>
+</html>

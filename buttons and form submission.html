@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttons and form submission</title>
+</head>
+<body>
+    <p>by entering information into a form and hitting enter, the form automatically submits unless the type is of a certain value</p>
+    <p>one method is to create an input element with a type attribute equal to "submit"</p>
+    <form action="">
+        <input type="submit" value="GOOO!">
+    </form> 
+    <p>using the submit type in html requires a textual value. if you desire to create a submit form with content that is nontextual like an image, you must not use html for that purpose</p>
+    <button>my first button!</button>
+    <button>my <b>second</b> button</button>
+    <p>you can also use a button element to submit a form</p>
+    <form action="">
+        <input type="email"
+        placeholder="email">
+        <button>submit email</button>
+    </form>
+    <p>if you have 2 buttons within the same "form" element, either button will submit the form, regardless of where the button in the form is located. this will cause problems.</p>
+    <p>the default type attribute of button element is "submit". That type can be altered. button type="button" will not submit the form.</p>
+    <button type="button">this is a regular button that will not submit data=</button>
+    <p>button allows more content besides text than submit elements. use button instead.</p>
+</body>
+</html>
