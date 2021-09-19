@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ems and rems</title>
+    <link rel="stylesheet" href="ems and rems.css">
+</head>
+<body>
+    <h1>ways to alter font-size</h1>
+    <p>absolute, relative, unit, viewport, percentage</p>
+    <p id="p1">when specifying a percentage font-size, percentage is of the parent element. this font-size is 75% of the parent element</p>
+    <h2>em</h2>
+    <p id="p2">an "em" is a font-size relative to a parent element size. 4em is 4*the size of the parent element. this is 5em.</p>
+    <h2>rem</h2>
+    <p>rem--relative to the root html element font size, not the parent html element.you can change the root html font-size by assigning a value to it in css /html{font-size:...}</p>
+    <br>it's useful to set the html element to a viewport amount, and the other elements to a rem of the root element. when the browser viewport changes, everything else will change proportionally--but be careful if they virtually disappear in a small viewport
+</body>
+</html>

@@ -1,0 +1,20 @@
+body {  
+    text-align: center;
+    background-image: url('IMG_0632.jpeg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: 500px;
+    width: 500px;
+    text-align: left;
+    text-justify: newspaper;
+    background-attachment: fixed;
+    background-size: 50vh;
+    background-size: 50vw;
+    background-position-x: right;
+
+   
+}
+body:hover {
+    background-color: rgb(29, 82, 82);
+}
