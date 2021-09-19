@@ -1,0 +1,10 @@
+h2 {
+    width: 50%;
+}
+
+p {
+    width: 25%;
+    min-width: 25%;
+    background-color: red;
+    color: white;
+}

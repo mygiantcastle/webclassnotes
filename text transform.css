@@ -1,0 +1,16 @@
+#p1{
+    text-transform: uppercase;
+}
+#p2{
+    font-size: 96px;
+    color: red;
+    text-shadow: 15px 15px cyan;
+}
+#p3{
+    box-shadow: 15px 15px greenyellow;
+    background-color: purple;
+    color: white;
+}
+body{
+    background: linear-gradient(cyan 70%, purple)
+}
